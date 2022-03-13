@@ -27,7 +27,7 @@ int main(){
     printf("Kac elemanli bir dizi gireceksiniz:");
     scanf("%d",&arr_size);
     
-       arr = calloc(arr_size, sizeof(double) );  
+       arr = calloc(arr_size, sizeof(int) );  
     
        for ( i = 0; i < arr_size; i++ ){
        	   printf("%d. element:",i+1);
