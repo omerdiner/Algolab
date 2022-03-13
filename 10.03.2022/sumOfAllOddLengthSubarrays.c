@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 int sumOddLengthSubarrays(int arr[],int size) {
 	
         int sum=0;
