@@ -1,0 +1,21 @@
+Usain Bolt is a world famous athlete. In his whole career, he broke lots of new records. The points he got from the races he entered are given. The task is find how many times Usain Bolt broke his own record.
+
+Input Format
+The first line contains one integer - n
+
+The second line contains n sized integer array
+
+Output Format
+Print the number of broken records in one line.
+
+
+Sample Input 1
+5
+3 7 2 6 8 
+Sample Output 1
+2
+Sample Input 2
+5
+1 2 3 4 5
+Sample Output 2
+4
