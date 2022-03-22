@@ -1,0 +1,33 @@
+Harun and Sami are very good friends. They play a game for N rounds. 
+In each round, Harun or Sami wins. In other words, a round never ends in a draw. To win the game, you need to win more rounds than your opponent.
+
+Unfortunately, they only remember the result of the first K round. Also, both of them claim to have won the game. 
+Therefore, you need to determine if anyone has definitely won the game or not by considering the first K round.
+
+Input Format
+The first line contains two integers - N and K, separated by a space.
+
+The next line contains a string with K characters, the letter 'H’ denotes that Harun won that round, and the letter ‘S’ denotes that Sami won that round.
+
+Output Format
+If it is certain that Harun won the game, print "Harun".
+
+If it is certain that Sami won the game, print "Sami".
+
+If the winner cannot be determined from the results of the first K rounds, print "Cilek".
+
+
+Sample Input 1
+7 5
+HSHHH
+
+Sample Output 1
+Harun
+
+
+Sample Input 2
+7 5
+HSHSH
+
+Sample Output 2
+Cilek
